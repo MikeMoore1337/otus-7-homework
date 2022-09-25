@@ -1,9 +1,0 @@
-[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:358 POST http://192.168.1.59:4444/wd/hub/session/c58440414988db0d17fbabb9dd530b3a/url {"url": "http://192.168.1.59:8081//admin"}
-[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:456 http://192.168.1.59:4444 "POST /wd/hub/session/c58440414988db0d17fbabb9dd530b3a/url HTTP/1.1" 200 14
-[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:380 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Cache-Control': 'no-cache', 'Content-Length': '14', 'Content-Type': 'application/json, application/json; charset=utf-8', 'Date': 'Sun, 25 Sep 2022 08:23:09 GMT'})
-[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:409 Finished Request
-[32mINFO    [0m otus-7-homework:BasePage.py:21 Finding element with wait: ('css selector', '.panel-title')
-[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:358 POST http://192.168.1.59:4444/wd/hub/session/c58440414988db0d17fbabb9dd530b3a/element {"using": "css selector", "value": ".panel-title"}
-[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:456 http://192.168.1.59:4444 "POST /wd/hub/session/c58440414988db0d17fbabb9dd530b3a/element HTTP/1.1" 200 88
-[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:380 Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"88dd37d0-83d3-4933-a260-c066833a40d1"}} | headers=HTTPHeaderDict({'Cache-Control': 'no-cache', 'Content-Length': '88', 'Content-Type': 'application/json, application/json; charset=utf-8', 'Date': 'Sun, 25 Sep 2022 08:23:09 GMT'})
-[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:409 Finished Request
