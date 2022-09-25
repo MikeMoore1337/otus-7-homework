@@ -1,0 +1,14 @@
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:358 POST http://192.168.1.59:4444/wd/hub/session/7c731b77553c7043b36b66539f5fd462/url {"url": "http://192.168.1.59:8081//desktops"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://192.168.1.59:4444 "POST /wd/hub/session/7c731b77553c7043b36b66539f5fd462/url HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:380 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Cache-Control': 'no-cache', 'Content-Length': '14', 'Content-Type': 'application/json, application/json; charset=utf-8', 'Date': 'Sun, 25 Sep 2022 08:10:48 GMT'})
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:409 Finished Request
+INFO     otus-7-homework:BasePage.py:21 Finding element with wait: ('xpath', "//a[contains(text(),'Phones & PDAs')]")
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:358 POST http://192.168.1.59:4444/wd/hub/session/7c731b77553c7043b36b66539f5fd462/element {"using": "xpath", "value": "//a[contains(text(),'Phones & PDAs')]"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://192.168.1.59:4444 "POST /wd/hub/session/7c731b77553c7043b36b66539f5fd462/element HTTP/1.1" 200 88
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:380 Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"017906ee-05de-4c10-ad21-23beb8f0c07c"}} | headers=HTTPHeaderDict({'Cache-Control': 'no-cache', 'Content-Length': '88', 'Content-Type': 'application/json, application/json; charset=utf-8', 'Date': 'Sun, 25 Sep 2022 08:10:48 GMT'})
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:409 Finished Request
+INFO     otus-7-homework:BasePage.py:21 Finding element with wait: ('css selector', 'h2')
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:358 POST http://192.168.1.59:4444/wd/hub/session/7c731b77553c7043b36b66539f5fd462/element {"using": "css selector", "value": "h2"}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://192.168.1.59:4444 "POST /wd/hub/session/7c731b77553c7043b36b66539f5fd462/element HTTP/1.1" 200 88
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:380 Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"358c35ba-9dab-4e9e-ba5e-9633739fa0b3"}} | headers=HTTPHeaderDict({'Cache-Control': 'no-cache', 'Content-Length': '88', 'Content-Type': 'application/json, application/json; charset=utf-8', 'Date': 'Sun, 25 Sep 2022 08:10:48 GMT'})
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:409 Finished Request

@@ -1,0 +1,19 @@
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:358 POST http://192.168.1.59:4444/wd/hub/session/c58440414988db0d17fbabb9dd530b3a/url {"url": "http://192.168.1.59:8081//desktops"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:456 http://192.168.1.59:4444 "POST /wd/hub/session/c58440414988db0d17fbabb9dd530b3a/url HTTP/1.1" 200 14
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:380 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Cache-Control': 'no-cache', 'Content-Length': '14', 'Content-Type': 'application/json, application/json; charset=utf-8', 'Date': 'Sun, 25 Sep 2022 08:23:17 GMT'})
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:409 Finished Request
+[32mINFO    [0m otus-7-homework:BasePage.py:21 Finding element with wait: ('css selector', 'div#content > h2')
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:358 POST http://192.168.1.59:4444/wd/hub/session/c58440414988db0d17fbabb9dd530b3a/element {"using": "css selector", "value": "div#content > h2"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:456 http://192.168.1.59:4444 "POST /wd/hub/session/c58440414988db0d17fbabb9dd530b3a/element HTTP/1.1" 200 88
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:380 Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"924721f6-fa6f-4759-8ed2-dbbaa153d3d9"}} | headers=HTTPHeaderDict({'Cache-Control': 'no-cache', 'Content-Length': '88', 'Content-Type': 'application/json, application/json; charset=utf-8', 'Date': 'Sun, 25 Sep 2022 08:23:17 GMT'})
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:409 Finished Request
+[32mINFO    [0m otus-7-homework:BasePage.py:21 Finding element with wait: ('xpath', "//div[@class='list-group']//a[1]")
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:358 POST http://192.168.1.59:4444/wd/hub/session/c58440414988db0d17fbabb9dd530b3a/element {"using": "xpath", "value": "//div[@class='list-group']//a[1]"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:456 http://192.168.1.59:4444 "POST /wd/hub/session/c58440414988db0d17fbabb9dd530b3a/element HTTP/1.1" 200 88
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:380 Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"a36a279a-5093-487d-bed5-19793c026237"}} | headers=HTTPHeaderDict({'Cache-Control': 'no-cache', 'Content-Length': '88', 'Content-Type': 'application/json, application/json; charset=utf-8', 'Date': 'Sun, 25 Sep 2022 08:23:17 GMT'})
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:409 Finished Request
+[32mINFO    [0m otus-7-homework:BasePage.py:21 Finding element with wait: ('css selector', 'div:nth-of-type(4) > div:nth-of-type(7)')
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:358 POST http://192.168.1.59:4444/wd/hub/session/c58440414988db0d17fbabb9dd530b3a/element {"using": "css selector", "value": "div:nth-of-type(4) > div:nth-of-type(7)"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:456 http://192.168.1.59:4444 "POST /wd/hub/session/c58440414988db0d17fbabb9dd530b3a/element HTTP/1.1" 200 88
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:380 Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"9fac9d85-173e-4a2b-946d-ff3d4b0486b0"}} | headers=HTTPHeaderDict({'Cache-Control': 'no-cache', 'Content-Length': '88', 'Content-Type': 'application/json, application/json; charset=utf-8', 'Date': 'Sun, 25 Sep 2022 08:23:17 GMT'})
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:409 Finished Request

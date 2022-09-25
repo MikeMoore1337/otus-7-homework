@@ -1,0 +1,24 @@
+[32mINFO    [0m otus-7-homework:BasePage.py:17 Opening url: http://192.168.1.59:8081/
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:358 POST http://192.168.1.59:4444/wd/hub/session/57d357b332256fb0ee0c80f3ddde5535/url {"url": "http://192.168.1.59:8081/"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:456 http://192.168.1.59:4444 "POST /wd/hub/session/57d357b332256fb0ee0c80f3ddde5535/url HTTP/1.1" 200 14
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:380 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Cache-Control': 'no-cache', 'Content-Length': '14', 'Content-Type': 'application/json, application/json; charset=utf-8', 'Date': 'Sun, 25 Sep 2022 08:17:43 GMT'})
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:409 Finished Request
+[32mINFO    [0m otus-7-homework:BasePage.py:21 Finding element with wait: ('css selector', '.product-layout:nth-child(1) .caption a')
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:358 POST http://192.168.1.59:4444/wd/hub/session/57d357b332256fb0ee0c80f3ddde5535/element {"using": "css selector", "value": ".product-layout:nth-child(1) .caption a"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:456 http://192.168.1.59:4444 "POST /wd/hub/session/57d357b332256fb0ee0c80f3ddde5535/element HTTP/1.1" 200 88
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:380 Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"0f3639ac-96e6-4cb3-9abe-d673049f6776"}} | headers=HTTPHeaderDict({'Cache-Control': 'no-cache', 'Content-Length': '88', 'Content-Type': 'application/json, application/json; charset=utf-8', 'Date': 'Sun, 25 Sep 2022 08:17:43 GMT'})
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:409 Finished Request
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:358 POST http://192.168.1.59:4444/wd/hub/session/57d357b332256fb0ee0c80f3ddde5535/element/0f3639ac-96e6-4cb3-9abe-d673049f6776/click {"id": "0f3639ac-96e6-4cb3-9abe-d673049f6776"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:456 http://192.168.1.59:4444 "POST /wd/hub/session/57d357b332256fb0ee0c80f3ddde5535/element/0f3639ac-96e6-4cb3-9abe-d673049f6776/click HTTP/1.1" 200 14
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:380 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Cache-Control': 'no-cache', 'Content-Length': '14', 'Content-Type': 'application/json, application/json; charset=utf-8', 'Date': 'Sun, 25 Sep 2022 08:17:44 GMT'})
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:409 Finished Request
+[32mINFO    [0m otus-7-homework:BasePage.py:21 Finding element with wait: ('id', 'button-cart')
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:358 POST http://192.168.1.59:4444/wd/hub/session/57d357b332256fb0ee0c80f3ddde5535/element {"using": "css selector", "value": "[id=\"button-cart\"]"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:456 http://192.168.1.59:4444 "POST /wd/hub/session/57d357b332256fb0ee0c80f3ddde5535/element HTTP/1.1" 200 88
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:380 Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"476b24ed-60bd-4c38-b2f5-4d5aa8fcd719"}} | headers=HTTPHeaderDict({'Cache-Control': 'no-cache', 'Content-Length': '88', 'Content-Type': 'application/json, application/json; charset=utf-8', 'Date': 'Sun, 25 Sep 2022 08:17:44 GMT'})
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:409 Finished Request
+[32mINFO    [0m otus-7-homework:BasePage.py:21 Finding element with wait: ('id', 'button-cart')
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:358 POST http://192.168.1.59:4444/wd/hub/session/57d357b332256fb0ee0c80f3ddde5535/element {"using": "css selector", "value": "[id=\"button-cart\"]"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:456 http://192.168.1.59:4444 "POST /wd/hub/session/57d357b332256fb0ee0c80f3ddde5535/element HTTP/1.1" 200 88
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:380 Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"476b24ed-60bd-4c38-b2f5-4d5aa8fcd719"}} | headers=HTTPHeaderDict({'Cache-Control': 'no-cache', 'Content-Length': '88', 'Content-Type': 'application/json, application/json; charset=utf-8', 'Date': 'Sun, 25 Sep 2022 08:17:44 GMT'})
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:409 Finished Request
